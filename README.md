@@ -25,15 +25,15 @@ DELETE: Eliminar un recurso una vez lo borrará. Las siguientes peticiones para 
 Diagrama de Arquitectura
 
 [Cliente (curl/SPA)]
-       |
-   HTTP/JSON
-       |
+        |
+      HTTP/JSON
+        |
 [ API /api/v1 (DRF ViewSets/URLs) ]
-       |
-[ Lógica/Serializers (validación) ]
-       |
+        |
+[ Logica/Serializer (validacion) ]
+        |
 [ Modelo Django (ORM) ]
-       |
+        |
 [ DB SQLite (local) ]
 
 
