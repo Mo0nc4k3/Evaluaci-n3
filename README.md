@@ -23,7 +23,7 @@ PATCH / PUT: Si envías una actualización a un recurso (por ejemplo, cambiar el
 DELETE: Eliminar un recurso una vez lo borrará. Las siguientes peticiones para eliminar el mismo recurso simplemente confirmarán que ya no existe (ej. error 404), pero el estado del sistema (el recurso borrado) no cambiará.
 
 Diagrama de Arquitectura
-
+```
 [Cliente (curl/SPA)]
         |
       HTTP/JSON
@@ -35,7 +35,7 @@ Diagrama de Arquitectura
 [ Modelo Django (ORM) ]
         |
 [ DB SQLite (local) ]
-
+```
 
 Cliente (curl/SPA): Es la capa de presentación que consume la API, como una aplicación web (React, Vue) o una herramienta como curl.
 
